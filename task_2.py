@@ -2,7 +2,6 @@ class Tester:
 
     def __init__(self, name):
         self.name = name
-        self.deadline = True  # по умолчанию дедлайн есть
 
     def work_hard(self, deadline=True):
         self.deadline = deadline  # обновляем значение дедлайна перед проверкой
